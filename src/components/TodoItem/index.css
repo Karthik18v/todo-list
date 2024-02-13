@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  justify-content: space-between;
+  height: 35px;
+}
+.delete-button {
+  color: #ff0b37;
+  background-color: white;
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+  padding: 05px;
+}

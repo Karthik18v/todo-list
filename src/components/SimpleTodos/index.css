@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  padding: 10px;
+}
+.heading {
+  align-self: center;
+  color: #ffc2a0;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  height: 80vh;
+  overflow: auto;
+  width: 70vw;
+  align-items: center;
+}
